@@ -1,0 +1,231 @@
+@charset "UTF-8";
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #010123;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #010123;
+  color: #e4e4fd;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  font-size: 1rem;
+  padding: 0.5rem;
+  animation-name: texto;
+  animation-iteration-count: infinite;
+  animation-duration: 4s;
+  animation-delay: 0s;
+  margin: 20px auto;
+}
+
+@keyframes texto {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+nav {
+  width: 50% auto;
+  height: 50% auto;
+  margin: 0% auto;
+  background-color: #010123;
+  display: flex;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu a {
+  color: #e4e4fd;
+  text-decoration: none;
+  padding: 10px;
+  align-items: center;
+  font-style: oblique;
+}
+
+.menu a:hover {
+  background-color: #e4e4fd;
+  color: #010123;
+  border-radius: 20px;
+}
+
+main {
+  background-color: #e4e4fd;
+  width: 100% auto;
+  height: 100% auto;
+}
+main .imagen {
+  width: 400px !important;
+  height: 400px !important;
+  padding: 20px;
+}
+main .texto {
+  line-height: 2;
+  padding: 20px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: oblique;
+}
+main .foto16años {
+  text-align: center;
+}
+main .seba1 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .seba {
+  text-align: center;
+  padding: 20px;
+}
+main .seba img {
+  width: 400x;
+  height: 400px;
+}
+main .gonza1 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .gonza {
+  text-align: center;
+  padding: 20px;
+}
+main .gonza img {
+  width: 400p;
+  height: 400px;
+}
+main .adri1 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .adri {
+  text-align: center;
+  padding: 20px;
+}
+main .adri img {
+  width: 400px;
+  height: 400px;
+}
+main .ricky1 {
+  text-align: center;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main .ricky {
+  text-align: center;
+  padding: 20px;
+}
+main .ricky img {
+  width: 400px;
+  height: 400px;
+}
+main .tran1:hover {
+  width: 50px;
+  height: 50px;
+  transform: scale(1, 1);
+}
+main .tran2:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(1, 1);
+}
+main .tran3:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(1, 1);
+}
+main .tran4:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(2, 2);
+}
+main .tran5:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(2, 2);
+}
+main .tran6:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(2, 2);
+}
+main .tran7:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(2, 2);
+}
+main .tran8:hover {
+  width: 200px;
+  height: 100px;
+  transform: scale(2, 2);
+}
+main .tran9:hover {
+  width: 50px;
+  height: 100px;
+  transform: scale(2, 2);
+}
+main .mapa {
+  text-align: center;
+  padding: 20px;
+}
+main .direccion {
+  padding: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+}
+main .formulario {
+  text-align: center;
+  padding: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+}
+main h3 {
+  text-align: center;
+  font-style: oblique;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #010123;
+}
+
+footer {
+  background-color: #010123;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer h2 {
+  color: #e4e4fd;
+  text-align: center;
+  font-style: oblique;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+h3 {
+  padding: 20px;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: #010123;
+}
+
+/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,271 @@
+$azulmarino:#010123;
+$grisperla:#e4e4fd;
+
+*{
+  padding: 0 auto;
+  margin: 0 auto;
+  box-sizing: border-box;
+ }
+
+body{
+           
+     background-color: $azulmarino;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+
+header{
+      
+      background-color: $azulmarino;
+      color: $grisperla;
+      }
+
+      h1{
+        text-align: center;
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        font-style: oblique;
+        font-size: 1rem;
+        padding: 0.5rem;
+        animation-name: texto;
+        animation-iteration-count: infinite;
+        animation-duration: 4s;
+        animation-delay: 0s;
+        margin: 20px auto;
+      }
+      
+      @keyframes texto{
+            0% {
+              opacity: 0;
+               }
+
+            50% {
+              opacity: 1;
+                }
+            100% {
+              opacity: 0;
+                }
+      }
+      nav{
+        width: 50% auto;
+        height: 50% auto;
+        margin: 0% auto;
+        background-color: $azulmarino;
+        display: flex;
+      }      
+      .menu{
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+      }
+      
+      .menu a{
+        color:$grisperla;
+        text-decoration: none;
+        padding: 10px;
+        align-items: center;
+        font-style: oblique;
+      }
+      
+      .menu a:hover {
+        background-color: $grisperla;
+        color: $azulmarino;
+        border-radius: 20px;
+      }
+      
+main{
+     background-color: $grisperla;   
+     width: 100% auto;
+     height: 100% auto;
+
+     .imagen{
+            width: 400px !important;
+            height: 400px !important;
+            
+             padding: 20px;
+          
+     }   
+    
+    
+
+     .texto{
+          line-height: 2;
+          padding: 20px;
+          text-align: left;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-style: oblique;
+    }
+    .foto16años{                  
+          text-align: center;
+          
+    }
+    .seba1{
+          text-align: center;
+          padding: 10px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+     }
+
+    .seba{
+          text-align: center;
+          padding: 20px;
+    }
+    .seba img{
+          width: 400x;
+          height: 400px;     
+    }
+    .gonza1{
+          text-align: center;
+          padding: 10px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+          
+    .gonza{
+          text-align: center;
+          padding: 20px;
+    }
+          
+    .gonza img{
+          width: 400p;
+          height: 400px;
+    }
+    .adri1{
+          text-align: center;
+          padding: 10px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }     
+     .adri{
+          text-align: center;
+          padding: 20px;
+    }          
+     .adri img{
+          width: 400px;
+          height: 400px;
+    }
+    .ricky1{
+          text-align: center;
+          padding: 10px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }          
+    .ricky{
+          text-align: center;
+          padding: 20px;
+    }          
+    .ricky img{
+          width: 400px;
+          height: 400px;
+     }
+
+    .tran1:hover{
+          width: 50px;
+          height: 50px;
+          transform: scale(1, 1);
+    }
+
+    
+    .tran2:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(1, 1);
+    }
+
+    .tran3:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(1,1);
+    }
+  
+    .tran4:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(2, 2);
+    }
+
+    .tran5:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(2, 2);
+    }
+ 
+    
+    .tran6:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(2, 2);
+    }
+    .tran7:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(2, 2);
+    }
+    
+    .tran8:hover{
+          width: 200px;
+          height: 100px;
+          transform: scale(2, 2);
+    }
+    
+    .tran9:hover{
+          width: 50px;
+          height: 100px;
+          transform: scale(2, 2);
+    }
+
+    .mapa{
+          text-align: center;
+          padding: 20px;
+    }
+    .direccion{
+          padding: 30px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          font-style: oblique;
+    }
+
+    .formulario{
+          text-align: center;
+          padding: 20px;
+          font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          font-style: oblique;
+    }
+    
+    h3{
+     
+      text-align: center;
+      font-style:oblique ;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      color: $azulmarino;
+      
+    }
+
+    }
+   
+
+footer{
+   
+      background-color: $azulmarino;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  
+    h2{
+      color: $grisperla;
+      text-align: center;
+      font-style: oblique;
+      font-size: 1.5rem;
+      padding: 1rem;
+     }
+}
+
+     h3{
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      color: $azulmarino;
+
+  
+}
+
+
+
+
+
+
+
